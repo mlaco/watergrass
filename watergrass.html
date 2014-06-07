@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+	<meta name="keywords" content="keywords here" />
+	<meta name="description" content="description here" />
+	<link href = "css/main.css" rel = "stylesheet" type="text/css" />	
+    
+	<title>The Title</title>
+
+<script src="Scripts/swfobject_modified.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+        <div id="game" class="corners">
+        	<canvas id="board" height="500" width="500"></canvas>
+        	<script type="text/javascript" src="watergrass.js"></script>
+        </div>
+        <div id='up'><strong>Green to play</strong></div>
+        <div id="interact">
+        	<form name="moveForm" action="">
+        		Piece:<br/>
+        		Chick<input type="radio" name="piece"value="1"><br/>
+        		Queen<input type="radio" name="piece" value="2"><br/>
+        		Rabbit<input type="radio" name="piece" value="3"><br/>
+        		Cat<input type="radio" name="piece" value="4"><br/>
+        		Bat<input type="radio" name="piece" value="5"><br/><br/>
+				X:  <input type="text" size="2" name="col"><br/><br/><br/>
+        		Y:  <input type="text" size="2" name="row">
+        		<input type="button" value="Submit" onclick="parseMove()" />
+        	</form>
+        </div>
+        
+</body>
+</html>

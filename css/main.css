@@ -1,0 +1,29 @@
+@charset "utf-8";
+/*CSS Document*/
+
+
+#game {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+
+
+#interact{
+	position: absolute;
+	top: 50px;
+	left: 510px;
+}
+
+#up {
+	position: relative;
+	top: 0;
+	left: 500px;
+}
+
+#move {
+	position: relative;
+	top: 50px;
+	left;
+}
